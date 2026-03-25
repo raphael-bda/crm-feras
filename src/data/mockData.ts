@@ -17,7 +17,7 @@ import type {
 export const agents: Agent[] = [
   { id: 'a1', name: 'Marina Faria', role: 'Coordenadora comercial', status: 'online', initials: 'MF', workload: 18 },
   { id: 'a2', name: 'Felipe Torres', role: 'Inside sales', status: 'ocupado', workload: 11 },
-  { id: 'a3', name: 'Juliana Souza', role: 'Pedagógico', status: 'online', initials: 'JS', workload: 7 },
+  { id: 'a3', name: 'Juliana Souza', role: 'Pedagogico', status: 'online', initials: 'JS', workload: 7 },
   { id: 'a4', name: 'Roberta Nunes', role: 'Financeiro', status: 'ausente', initials: 'RN', workload: 4 },
   { id: 'a5', name: 'Diego Costa', role: 'Ouvidoria', status: 'online', initials: 'DC', workload: 9 },
   { id: 'a6', name: 'Fernanda Alves', role: 'Atendimento social', status: 'ocupado', workload: 13 },
@@ -92,7 +92,7 @@ export const conversations: Conversation[] = [
     team: 'Financeiro',
     unread: 1,
     time: 'ha 18 min',
-    preview: 'Vocês podem reenviar o boleto da parcela de abril?',
+    preview: 'Voces podem reenviar o boleto da parcela de abril?',
     tab: 'outros',
     labelTone: 'bg-amber-50 text-amber-700',
     messages: [
@@ -146,7 +146,7 @@ export const initialKanbanColumns: KanbanColumn[] = [
     tone: 'warning',
     items: [
       { id: 'k4', code: 'PED-510', name: 'Colegio Vanguarda', owner: 'RN', dueLabel: 'Hoje, 18:00', comments: 8 },
-      { id: 'k5', code: 'COM-031', name: 'Amanda Siqueira', owner: 'FA', dueLabel: 'Amanhã, 11:00', comments: 3, archived: true },
+      { id: 'k5', code: 'COM-031', name: 'Amanda Siqueira', owner: 'FA', dueLabel: 'Amanha, 11:00', comments: 3, archived: true },
     ],
   },
   {

@@ -8,6 +8,7 @@ import {
   RefreshCw,
   Settings2,
   Sparkles,
+  type LucideIcon,
 } from 'lucide-react';
 import type { MainSection } from '../types';
 
@@ -16,7 +17,7 @@ interface TopBarProps {
   onChangeSection: (section: MainSection) => void;
 }
 
-const items: Array<{ id: MainSection; label: string; icon: typeof Headset }> = [
+const items: Array<{ id: MainSection; label: string; icon: LucideIcon }> = [
   { id: 'atendimentos', label: 'Atendimentos', icon: Headset },
   { id: 'crm', label: 'CRM', icon: LayoutGrid },
   { id: 'apps', label: 'Apps', icon: Puzzle },

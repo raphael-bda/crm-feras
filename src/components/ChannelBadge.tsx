@@ -1,7 +1,7 @@
-import { Facebook, Instagram, MessageCircle } from 'lucide-react';
+import { Facebook, Instagram, MessageCircle, type LucideIcon } from 'lucide-react';
 import type { Channel } from '../types';
 
-const channelConfig: Record<Channel, { label: string; icon: typeof MessageCircle; classes: string }> = {
+const channelConfig: Record<Channel, { label: string; icon: LucideIcon; classes: string }> = {
   whatsapp: {
     label: 'WhatsApp',
     icon: MessageCircle,
